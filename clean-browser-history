@@ -1,0 +1,65 @@
+#!/bin/bash
+
+now=$(date +"%y-%m-%d %T")
+run () {
+  eval "$1" >> ~/sooheesh/backup-privacy/Logs/clean-browser-history.log 2>&1
+}
+
+run 'echo "${now}"'
+
+# Quit app first
+osascript -e 'quit app "Google Chrome"'
+
+# Backup Chrome history and cache
+# 1. History
+run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/History ~/sooheesh/index/Backup/Chrome/'
+run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/History'
+# 2. History-journal
+run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/History-journal ~/sooheesh/index/Backup/Chrome/'
+run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/History-journal'
+# 3. Current Tabs
+run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Current\ Tabs ~/sooheesh/index/Backup/Chrome/'
+run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Current\ Tabs'
+# 4. Cache
+run 'cp -fr ~/Library/Caches/Google/Chrome/Default/Cache ~/sooheesh/index/Backup/Chrome/'
+run 'rm -rf ~/Library/Caches/Google/Chrome/Default/Cache'
+# 5. Media Cache
+run 'cp -fr ~/Library/Caches/Google/Chrome/Default/Media\ Cache ~/sooheesh/index/Backup/Chrome/'
+run 'rm -rf ~/Library/Caches/Google/Chrome/Default/Media\ Cache'
+# 6. Cookies
+run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Cookies ~/sooheesh/index/Backup/Chrome/'
+run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Cookies'
+# 7. Cookies-journal
+run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Cookies-journal ~/sooheesh/index/Backup/Chrome/'
+run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Cookies-journal'
+
+# Quit app first
+osascript -e 'quit app "Safari"'
+
+# Backup Safari History (except for bookmarks).
+# 1. History.db
+run 'cp -fr ~/Library/Safari/History.db ~/sooheesh/index/Backup/Safari/'
+run 'rm -rf ~/Library/Safari/History.db'
+# 2. History.db-lock
+run 'cp -fr ~/Library/Safari/History.db-lock ~/sooheesh/index/Backup/Safari/'
+run 'rm -rf ~/Library/Safari/History.db-lock'
+# 3. History.db-shm
+run 'cp -fr ~/Library/Safari/History.db-shm ~/sooheesh/index/Backup/Safari/'
+run 'rm -rf ~/Library/Safari/History.db-shm'
+# 4. History.db-wal
+run 'cp -fr ~/Library/Safari/History.db-wal ~/sooheesh/index/Backup/Safari/'
+run 'rm -rf ~/Library/Safari/History.db-wal'
+# 5. RecentlyClosedTabs.plist
+run 'cp -fr ~/Library/Safari/RecentlyClosedTabs.plist ~/sooheesh/index/Backup/Safari/'
+run 'rm -rf ~/Library/Safari/RecentlyClosedTabs.plist'
+# 6. LastSession.plist
+run 'cp -fr ~/Library/Safari/LastSession.plist ~/sooheesh/index/Backup/Safari/'
+run 'rm -rf ~/Library/Safari/LastSession.plist'
+# 7. LocalStorage
+run 'cp -fr ~/Library/Safari/LocalStorage ~/sooheesh/index/Backup/Safari/'
+run 'rm -rf ~/Library/Safari/LocalStorage'
+# 8. Cookies
+run 'cp -fr ~/Library/Cookies ~/sooheesh/index/Backup/Safari/'
+run 'rm -rf ~/Library/Cookies'
+
+run 'echo "=================="'

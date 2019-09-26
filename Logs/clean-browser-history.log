@@ -1,0 +1,605 @@
+19-09-26 19:41:17
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Media Cache: No such file or directory
+cp: /Users/maggie/Library/Safari/History.db: Operation not permitted
+rm: /Users/maggie/Library/Safari/History.db: Operation not permitted
+cp: /Users/maggie/Library/Safari/History.db-lock: Operation not permitted
+rm: /Users/maggie/Library/Safari/History.db-lock: Operation not permitted
+cp: /Users/maggie/Library/Safari/History.db-shm: Operation not permitted
+rm: /Users/maggie/Library/Safari/History.db-shm: Operation not permitted
+cp: /Users/maggie/Library/Safari/History.db-wal: Operation not permitted
+rm: /Users/maggie/Library/Safari/History.db-wal: Operation not permitted
+cp: /Users/maggie/Library/Safari/RecentlyClosedTabs.plist: Operation not permitted
+rm: /Users/maggie/Library/Safari/RecentlyClosedTabs.plist: Operation not permitted
+cp: /Users/maggie/Library/Safari/LastSession.plist: Operation not permitted
+rm: /Users/maggie/Library/Safari/LastSession.plist: Operation not permitted
+cp: /Users/maggie/Library/Safari/LocalStorage: unable to copy extended attributes to /Users/maggie/sooheesh/backup-privacy/Backup/Safari/LocalStorage: Operation not permitted
+cp: /Users/maggie/Library/Safari/LocalStorage: Operation not permitted
+rm: /Users/maggie/Library/Safari/LocalStorage: Operation not permitted
+cp: /Users/maggie/Library/Cookies: unable to copy extended attributes to /Users/maggie/sooheesh/backup-privacy/Backup/Safari/Cookies: Operation not permitted
+cp: /Users/maggie/Library/Cookies: Operation not permitted
+rm: /Users/maggie/Library/Cookies: Operation not permitted
+==================
+19-09-26 19:45:54
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Media Cache: No such file or directory
+==================
+19-09-26 20:03:14
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Media Cache: No such file or directory
+==================
+19-09-26 20:08:51
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6e04cc34b614b0d4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2b71102dedff642a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/342eb0fc3129a34b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/629d8e71d259085f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b162693f92070b88_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2a11e3d7843e2e43_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/f4faae4e892605ec_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/208342c77b9a4886_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7f8e67016fc56b38_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/f56d7220655f6415_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/acb5ab35a21b7741_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b762905cb3c2c5af_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b5258f122dec699a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b216e9ab9d05163c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/580d6cf43537780d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/bce793272cc2fd08_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5fee1416a5c175b7_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/36e3efc26acba1ae_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0b28c8da3556d42f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/f67a5b0468d49b25_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7a7a0ec56f264fec_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5ffff0f23f89223f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2bc3fb6098841a8c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9c458572a3583da4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache/index-dir: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir/the-real-index: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9dee4dbd4c3bd775_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/50340412d793b184_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/aa0ff4f81e643730_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/77c9a1c1c2a0f8c0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3395473d3c34fa09_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/346487e3b052cc7c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/bb75cb29e4a1ba93_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5fca1510ea980262_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/852d7d8e06ace6d0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/dd1ad332ab9eef4e_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/75da19bc000a1fe4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/8e972c38593ba687_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/83718146bf9fe0a0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4df391c188311d4c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7f14b83bb802ced5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/fa15d5bb4e4d66a7_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ee1a11c9618e964c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/fce04435aa50a3bd_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/55f21262551fe855_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/e92ac21159587a2e_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/cd1c2d65e6d5979c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6a9986890c003f71_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6a545c8ce3ab49bc_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c2d45ec0ac80768b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0d172b8b4934f65a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/731d55ceb3f3f1cd_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0013a0e8ccf442d5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/586ed650f7d4df9d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/cb798c5786445ea1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/cd13b0332134a25d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a001b88d20f51876_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d3bb05a21ba7e03d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d42bb7d48d23c9f0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/849b7be7f950a0c4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/83a2f62c7ca30ef5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/81bf0830c760f7ae_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/8389c2d26456be73_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/bf676c9d5aa3090d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/543c15ae0e3b9672_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/e19c08ecc631c4cf_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c611a2eef47dab1f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/85c609915cd67e02_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/70267b8c6a307799_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d412c14d365af481_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/660bc9a3647e6c18_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5921366eb04eae25_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/01ba57596c4e75eb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3c8866e5c8293d48_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/10a1ba6e233bec88_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9b5ed894f9db6713_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c34d7ae4a2a3ef1d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7b70d7001c82be01_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/dc242afeb9720c1b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2491267cae3992fe_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d9d5db61fdf4a4b4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b9deab02f51a01b2_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/e38607c41c5bce63_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ec5831089c7fb883_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b2a923190f90b45f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/477132ddb5caf808_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d12693096a11c1be_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/713572ef223d7f50_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d99653c5fe2a68f2_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c346d0854a43b508_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a42856777d81aba5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5f21e486a4e22949_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/cceaee53af3b463b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c8cec077eb41b536_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/bfb17a0b8990b35c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/8039da89a82771a0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/154c28949aef3a30_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6f54e8415813a765_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a37cc81df65a60f4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ce89f5b06112bf5c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/55fcba148b11e7ca_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4f4385d365a049ec_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0c4dd457c99f591b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9625b0065237a35a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d31231833157345b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7ca372763e38f67c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6d7746a11635b58d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/aa4bc3d7c03a3bdf_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/e6fb57b7dbf93e20_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4848e75fe3bd089c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/10da193417e34ab0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/735e0911ab158d7f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/1828a5f20a26f26f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/1e007e90df319380_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0a5e366798ca9e51_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3443d775afbf4167_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3e9a68db179af2e5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b76f15066cec6561_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/834c842ee036e100_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/698cd1230ef1af57_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6ab596437ecce9d2_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/be8f301072a1c668_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/651ee9a0caed13fa_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d08d0df7c0d88a61_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/8343cc9318c55753_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d7a3bff746f66338_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/628a6714bc0c7ae8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/53fa8938de35cfda_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7c24cd5a9669a351_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/fe2f723be58ef2bb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/311acb18e542c7df_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7dc22c53fae9a8ee_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b6cdc94bcc1e01a7_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/34c407e0f131f741_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/1cb6763a913d1dcd_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/56aa8c7274ea9ebc_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/bd859122c86afb42_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6a42982eb1382c67_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/1fe4850870ce1176_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/611eb66605bf021a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/1aaaba87ebcf62ed_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/90030ccf1a9ab056_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ccc9469fb8886a36_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/65db535cf91453d8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a3e1631b78821032_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4a886f846ab0a149_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/062cfc6db49c1eb8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/45ffa65a5828f7b4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9034d0c4b726cc73_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ccfddf541bb6eca1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/140df816f2880ada_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d43318e1eab9d666_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5eb3d5950d30f619_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7664ae2baf1f37f0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/18e55a679cfd761d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/fe299834fb1b1474_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3fb6621db384db3a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/15f2064b64f2d363_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/25a21aeeb7f02647_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/39f8d0d4ab4bca3b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/098fa9ea65a451c7_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a577e6e9e06cc741_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5870d3e06b807675_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c6b43e2ae6fb65d9_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/46f2307ba49656e2_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/339d0b901d13a7f4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7981aded104691f8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4b54b787d3c33795_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/cfd46714cd753e53_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5aece3c9eba7cb02_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/e0294e7fe872d7a0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/cb792ba67110260b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/f8d758374fb2c76c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/25d90795022e5e6a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/56bb8d55273a1d97_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4f4068db632a042b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/57f439cc981620a5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/98ea623d41a6640f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a84049f95bcbdaf1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3fcb67e0dbf32135_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/beea6bf3cdc3b9db_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c3803383bc8b35fa_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2940195bd9870d6e_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3d4c58c587a5aeaa_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7573ec1628ad2ac1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/68e440efab4814a2_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3f7f13a75a028bd6_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d405c65a44ce421f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4a6f2360db5ca09c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0cc612f808745a43_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/376ea9a4abbe8606_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4d56d3d9accb5991_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/dd389265ac3c75bf_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/390a62a810c33b74_0: No such file or directory
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+==================
+19-09-26 20:10:00
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache/index-dir: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir/the-real-index: No such file or directory
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/Library/Safari/LocalStorage: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari/https_www.google.com_0.localstorage-shm: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari/https_www.google.com_0.localstorage-wal: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari/https_askubuntu.com_0.localstorage: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari/https_askubuntu.com_0.localstorage-shm: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari/https_askubuntu.com_0.localstorage-wal: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari/https_www.google.com_0.localstorage: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/Library/Cookies: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari/Cookies.binarycookies: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Safari/com.apple.iTunes.binarycookies: No such file or directory
+==================
+19-09-26 20:10:09
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+==================
+19-09-26 20:10:52
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+==================
+19-09-26 20:11:47
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b6a709b230c92d44_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4f708a28416829d8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2a11e3d7843e2e43_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/76d773a13cf5ffc3_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/47c75484452b1a86_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/63c184e0282104a9_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/f8dd85f2e5b7bb0a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c53a792332c05562_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache/index-dir: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir/the-real-index: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9dee4dbd4c3bd775_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0f88c08ea611aef3_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/20c2ce42409b5eea_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/aa0ff4f81e643730_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/e18a1bbeb1e41139_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d1dc4f473f8af066_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/e631f53c226e31b0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5e6c960b7b152b6b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/17d4385bb1bb4861_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b115f1c452eed154_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5eff8a079f43b6c3_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/601cc87f88c3088b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/71ece9faf66cfaeb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7d12098ff928dc4d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/831352d557f31354_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/cadfc03620fc9fd8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/586ed650f7d4df9d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3c3dd49fe00f0efe_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/f0c6e31e7187d427_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d3bb05a21ba7e03d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a5162625f44413f4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b7e010ebf8890595_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/83a2f62c7ca30ef5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/47ff9614be7c4d55_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0eee5181bf216e8d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/74bbfedf99e2560d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/01ba57596c4e75eb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3d9f9a7b92bf4886_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ac08455b5d73eb79_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c8b414e0590c3655_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d3ac21fb686d9328_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5f21e486a4e22949_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6f54e8415813a765_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9868629540cabac8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/cf2712fa26260703_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c2d481f3f0c42baf_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/09e73b3962dbd203_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/aa4bc3d7c03a3bdf_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/367d5501a01f8a1e_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0e085a608757f4da_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/63e91ab408873816_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4c9d214cb310c237_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/03bbccd4f8cae29d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b76f15066cec6561_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/69b7cc398192ca99_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4615a3eb0adeded0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/44a42ef605888a08_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d80f32fb774cb85d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a1543816ad8d3e92_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/fe58b6007af20ff4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/e176bb7187551945_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/8f54ca584fb32737_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/313aa9fffe3efdbb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/550a111c9e1427c7_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/aa1f653ed65abc7b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/97df5715e07c8255_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7d37d93f31195cdd_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9034d0c4b726cc73_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ccfddf541bb6eca1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c195e21131bda136_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5fba04d6ed9d5130_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/63e661e3212032a9_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5cca20c0259d1bcd_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/07ede32429db46ca_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/58eec88f7d86dc30_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/18e55a679cfd761d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/63f0d800d2fb2648_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c03f7ffd8058a80d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3fb6621db384db3a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d5bf47e7bc0005a1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/77971c9b713b77d1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/146bf5eb34d0151f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/339d0b901d13a7f4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/42c11accd7c61c10_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3021a2a5bdea7cca_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7c044b54ea76852c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d1714c98c2a9845f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0bc78b0953c9c53d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/98c1e6bf0cf80bc0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a84049f95bcbdaf1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/726c653e03b453ef_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/beea6bf3cdc3b9db_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2dc93d64c0b40aed_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b17478b4da65bce1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/80649546af1c11c8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/00e44a1d3db2d3d9_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0eb5bf36d3f81eda_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6ebb30277b6c5429_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/192a38aa5499a8c2_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/390a62a810c33b74_0: No such file or directory
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+==================
+19-09-26 20:19:05
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2b71102dedff642a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/78e3f42ba6c3f3cc_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/342eb0fc3129a34b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/1d694ae723fa0270_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2a11e3d7843e2e43_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7f8e67016fc56b38_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/f56d7220655f6415_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5d7f9fc80704cf49_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/65b74a08574a7c1b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/729516324f64a488_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/bce793272cc2fd08_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2bc3fb6098841a8c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache/index-dir: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir/the-real-index: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9dee4dbd4c3bd775_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/aa0ff4f81e643730_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/77c9a1c1c2a0f8c0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/070e6bf959d154a8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/7f14b83bb802ced5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/165902022b0b6501_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/894aa2d1f49e7f2c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2816984d6ec5e5e1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/586ed650f7d4df9d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d3bb05a21ba7e03d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/83a2f62c7ca30ef5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b56098d33cf46528_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/543c15ae0e3b9672_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/660bc9a3647e6c18_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/01ba57596c4e75eb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4b21510038a4b5f6_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/10a1ba6e233bec88_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a694b3ab816b36bb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/791ac429e1d73aea_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5f21e486a4e22949_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/85193fc7b9144c84_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/5e2553eab8f7655c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/154c28949aef3a30_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6f54e8415813a765_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/4f4385d365a049ec_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/872894bb0e8d7f3a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/83e10b058a3d4e97_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/735e0911ab158d7f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/20bbf3ad4d79942b_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3e9a68db179af2e5_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/b76f15066cec6561_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/698cd1230ef1af57_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d08d0df7c0d88a61_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/088d25e1b17bcde2_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/25a2bd8313a421e8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/702b4b185c516ddb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/29a5f7e3566e777c_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/21f26b887bba8aa2_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/1aaaba87ebcf62ed_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/45ffa65a5828f7b4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9034d0c4b726cc73_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ccfddf541bb6eca1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/18e55a679cfd761d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/41d4b65c99352934_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/3fb6621db384db3a_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/18667499b28d6a55_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/71b18d309d71274f_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/339d0b901d13a7f4_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/74977f6346f72ca8_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/d1fe05e59c8ef3a1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/f453e900f52ababd_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/56bb8d55273a1d97_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a84049f95bcbdaf1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a09db64f40613044_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/beea6bf3cdc3b9db_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/c3803383bc8b35fa_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2940195bd9870d6e_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/390a62a810c33b74_0: No such file or directory
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-lock: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-shm: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-wal: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/LastSession.plist: Operation not permitted
+cp: /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/Library/Safari/LocalStorage: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Safari: Operation not permitted
+cp: /Users/maggie/Library/Safari/LocalStorage: Operation not permitted
+rm: /Users/maggie/Library/Safari/LocalStorage: Operation not permitted
+cp: /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/Library/Cookies: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Safari: Operation not permitted
+cp: /Users/maggie/Library/Cookies: Operation not permitted
+rm: /Users/maggie/Library/Cookies: Operation not permitted
+==================
+19-09-26 20:21:35
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/2a11e3d7843e2e43_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/Library/Caches/Google/Chrome/Default/Cache/index-dir: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Chrome/index-dir: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index-dir/the-real-index: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9dee4dbd4c3bd775_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/aa0ff4f81e643730_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/77c9a1c1c2a0f8c0_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/612df2afbe6f1159_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/586ed650f7d4df9d_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/01ba57596c4e75eb_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/6f54e8415813a765_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/index: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/9034d0c4b726cc73_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/ccfddf541bb6eca1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/0e2e4116e6b3454e_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/a84049f95bcbdaf1_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/beea6bf3cdc3b9db_0: No such file or directory
+cp: /Users/maggie/sooheesh/index/Backup/Chrome/390a62a810c33b74_0: No such file or directory
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-lock: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-shm: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-wal: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/LastSession.plist: Operation not permitted
+cp: /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/Library/Safari/LocalStorage: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Safari: Operation not permitted
+cp: /Users/maggie/Library/Safari/LocalStorage: Operation not permitted
+rm: /Users/maggie/Library/Safari/LocalStorage: Operation not permitted
+cp: /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/Library/Cookies: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Safari: Operation not permitted
+cp: /Users/maggie/Library/Cookies: Operation not permitted
+rm: /Users/maggie/Library/Cookies: Operation not permitted
+==================
+19-09-26 20:23:29
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Chrome does not exist
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-lock: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-shm: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/History.db-wal: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/RecentlyClosedTabs.plist: Operation not permitted
+cp: directory /Users/maggie/sooheesh/index/Backup/Safari does not exist
+rm: /Users/maggie/Library/Safari/LastSession.plist: Operation not permitted
+cp: /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/Library/Safari/LocalStorage: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Safari: Operation not permitted
+cp: /Users/maggie/Library/Safari/LocalStorage: Operation not permitted
+rm: /Users/maggie/Library/Safari/LocalStorage: Operation not permitted
+cp: /Users/maggie/sooheesh/index/Backup/Safari: No such file or directory
+cp: /Users/maggie/Library/Cookies: unable to copy extended attributes to /Users/maggie/sooheesh/index/Backup/Safari: Operation not permitted
+cp: /Users/maggie/Library/Cookies: Operation not permitted
+rm: /Users/maggie/Library/Cookies: Operation not permitted
+==================

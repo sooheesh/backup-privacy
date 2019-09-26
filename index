@@ -1,0 +1,11 @@
+#!/bin/bash
+
+~/sooheesh/backup-privacy/clean-browser-history
+~/sooheesh/backup-privacy/quit-personal-apps
+
+title='Backup Privacy'
+message='Cleaned browser history and Quitted personal apps'
+osascript -e 'display notification "'"${message}"'" with title "'"${title}"'"'
+
+#osascript -e 'display dialog "Terminal icon" with icon alias "Macintosh HD:Applications:Utilities:Terminal.app:Contents:Resources:Terminal.icns"'
+

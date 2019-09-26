@@ -1,0 +1,13 @@
+#!/bin/bash
+
+now=$(date +"%y-%m-%d %T")
+run () {
+  eval "$1" >> ~/sooheesh/backup-privacy/Logs/quit-personal-apps.log 2>&1
+}
+
+run 'echo "${now}"'
+
+run $'osascript -e \'quit app "Telegram"\''
+run $'osascript -e \'quit app "KakaoTalk"\''
+
+run 'echo "=================="'

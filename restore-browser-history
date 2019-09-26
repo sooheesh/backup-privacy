@@ -1,0 +1,48 @@
+#!/bin/bash
+
+now=$(date +"%y-%m-%d %T")
+run () {
+  eval "$1" >> ~/sooheesh/backup-privacy/Logs/restore-browser-history.log 2>&1
+}
+
+run 'echo "${now}"'
+
+# Restore Chrome history and cache
+# 1. History
+run 'cp -fr ~/sooheesh/index/Backup/Chrome/History ~/Library/Application\ Support/Google/Chrome/Default/'
+# 2. History-journal
+run 'cp -fr ~/sooheesh/index/Backup/Chrome/History-journal ~/Library/Application\ Support/Google/Chrome/Default/'
+# 3. Current Tabs
+run 'cp -fr ~/sooheesh/index/Backup/Chrome/Current\ Tabs ~/Library/Application\ Support/Google/Chrome/Default/'
+# 4. Cache
+run 'cp -fr ~/sooheesh/index/Backup/Chrome/Cache ~/Library/Caches/Google/Chrome/Default/'
+# 5. Media Cache
+run 'cp -fr ~/Library/Caches/Google/Chrome/Default/Media\ Cache ~/sooheesh/index/Backup/Chrome/'
+# 6. Cookies
+run 'cp -fr ~/sooheesh/index/Backup/Chrome/Cookies ~/Library/Application\ Support/Google/Chrome/Default/'
+# 7. Cookies-journal
+run 'cp -fr ~/sooheesh/index/Backup/Chrome/Cookies-journal ~/Library/Application\ Support/Google/Chrome/Default/'
+
+# Restore Safari History (except for bookmarks).
+# 1. History.db
+run 'cp -fr ~/sooheesh/index/Backup/Safari/History.db ~/Library/Safari/'
+# 2. History.db-lock
+run 'cp -fr ~/sooheesh/index/Backup/Safari/History.db-lock ~/Library/Safari/'
+# 3. History.db-shm
+run 'cp -fr ~/sooheesh/index/Backup/Safari/History.db-shm ~/Library/Safari/'
+# 4. History.db-wal
+run 'cp -fr ~/sooheesh/index/Backup/Safari/History.db-wal ~/Library/Safari/'
+# 5. RecentlyClosedTabs.plist
+run 'cp -fr ~/sooheesh/index/Backup/Safari/RecentlyClosedTabs.plist ~/Library/Safari/'
+# 6. LastSession.plist
+run 'cp -fr ~/sooheesh/index/Backup/Safari/LastSession.plist ~/Library/Safari/'
+# 7. LocalStorage
+run 'cp -fr ~/sooheesh/index/Backup/Safari/LocalStorage ~/Library/Safari/'
+# 8. Cookies
+run 'cp -fr ~/sooheesh/index/Backup/Safari/Cookies ~/Library/'
+
+run 'echo "=================="'
+
+title='Restore Privacy'
+message='Restored browser history'
+osascript -e 'display notification "'"${message}"'" with title "'"${title}"'"'
