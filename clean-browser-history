@@ -1,65 +1,143 @@
 #!/bin/bash
 
 now=$(date +"%y-%m-%d %T")
-run () {
-  eval "$1" >> ~/sooheesh/backup-privacy/Logs/clean-browser-history.log 2>&1
+
+leaveLog() {
+  echo "$1" >> "${BASH_SOURCE%/*}/Logs/clean-browser-history.log" 2>&1
 }
 
-run 'echo "${now}"'
+run () {
+  result=$(eval "$1")
+  if [ -z "$result" ]; then
+    leaveLog "SUCCEED: $1"
+  else
+    leaveLog "FAILED: $1"
+    leaveLog "$result"
+  fi
+}
+
+leaveLog "${now}"
 
 # Quit app first
 osascript -e 'quit app "Google Chrome"'
 
+backupLocation="${BASH_SOURCE%/*}/Backup"
+chromeBackupLocation="${backupLocation}/Chrome"
+safariBackupLocation="${backupLocation}/Safari"
+
 # Backup Chrome history and cache
 # 1. History
-run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/History ~/sooheesh/index/Backup/Chrome/'
-run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/History'
+if [ ! -f "$chromeBackupLocation/History" ]; then
+  run "cp -fr ~/Library/Application\ Support/Google/Chrome/Default/History ${chromeBackupLocation}"
+  run "rm -rf ~/Library/Application\ Support/Google/Chrome/Default/History"
+else
+  leaveLog "$chromeBackupLocation/History file already exist"
+fi
+
 # 2. History-journal
-run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/History-journal ~/sooheesh/index/Backup/Chrome/'
-run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/History-journal'
+if [ ! -f "$chromeBackupLocation/History-journal" ]; then
+  run "cp -fr ~/Library/Application\ Support/Google/Chrome/Default/History-journal ${chromeBackupLocation}"
+  run "rm -rf ~/Library/Application\ Support/Google/Chrome/Default/History-journal"
+else
+  leaveLog "$chromeBackupLocation/History-journal file already exist"
+fi
 # 3. Current Tabs
-run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Current\ Tabs ~/sooheesh/index/Backup/Chrome/'
-run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Current\ Tabs'
-# 4. Cache
-run 'cp -fr ~/Library/Caches/Google/Chrome/Default/Cache ~/sooheesh/index/Backup/Chrome/'
-run 'rm -rf ~/Library/Caches/Google/Chrome/Default/Cache'
-# 5. Media Cache
-run 'cp -fr ~/Library/Caches/Google/Chrome/Default/Media\ Cache ~/sooheesh/index/Backup/Chrome/'
-run 'rm -rf ~/Library/Caches/Google/Chrome/Default/Media\ Cache'
-# 6. Cookies
-run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Cookies ~/sooheesh/index/Backup/Chrome/'
-run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Cookies'
-# 7. Cookies-journal
-run 'cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Cookies-journal ~/sooheesh/index/Backup/Chrome/'
-run 'rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Cookies-journal'
+if [ ! -f "$chromeBackupLocation/Current Tabs" ]; then
+  run "cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Current\ Tabs ${chromeBackupLocation}"
+  run "rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Current\ Tabs"
+else
+  leaveLog "$chromeBackupLocation/Current\ Tabs file already exist"
+fi
+# 4. Cookies
+if [ ! -f "$chromeBackupLocation/Cookies" ]; then
+  run "cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Cookies ${chromeBackupLocation}"
+  run "rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Cookies"
+else
+  leaveLog "$chromeBackupLocation/Cookies file already exist"
+fi
+# 5. Cookies-journal
+if [ ! -f "$chromeBackupLocation/Cookies-journal" ]; then
+  run "cp -fr ~/Library/Application\ Support/Google/Chrome/Default/Cookies-journal ${chromeBackupLocation}"
+  run "rm -rf ~/Library/Application\ Support/Google/Chrome/Default/Cookies-journal"
+else
+  leaveLog "$chromeBackupLocation/Cookies-journal file already exist"
+fi
+# 6. Cache
+if [ ! -d "$chromeBackupLocation/Cache" ]; then
+  run "cp -fr ~/Library/Caches/Google/Chrome/Default/Cache ${chromeBackupLocation}"
+  run "rm -rf ~/Library/Caches/Google/Chrome/Default/Cache"
+else
+  leaveLog "$chromeBackupLocation/Cache directory already exist"
+fi
+# 7. Media Cache
+if [ ! -d "$chromeBackupLocation/Media Cache" ]; then
+  run "cp -fr ~/Library/Caches/Google/Chrome/Default/Media\ Cache ${chromeBackupLocation}"
+  run "rm -rf ~/Library/Caches/Google/Chrome/Default/Media\ Cache"
+else
+  leaveLog "$chromeBackupLocation/Media\ Cache directory already exist"
+fi
 
 # Quit app first
 osascript -e 'quit app "Safari"'
 
 # Backup Safari History (except for bookmarks).
 # 1. History.db
-run 'cp -fr ~/Library/Safari/History.db ~/sooheesh/index/Backup/Safari/'
-run 'rm -rf ~/Library/Safari/History.db'
+if [ ! -f "$safariBackupLocation/History.db" ]; then
+  run "cp -fr ~/Library/Safari/History.db ${safariBackupLocation}"
+  run "rm -rf ~/Library/Safari/History.db"
+else
+  leaveLog "$safariBackupLocation/History.db file already exist"
+fi
 # 2. History.db-lock
-run 'cp -fr ~/Library/Safari/History.db-lock ~/sooheesh/index/Backup/Safari/'
-run 'rm -rf ~/Library/Safari/History.db-lock'
+if [ ! -f "$safariBackupLocation/History.db-lock" ]; then
+  run "cp -fr ~/Library/Safari/History.db-lock ${safariBackupLocation}"
+  run "rm -rf ~/Library/Safari/History.db-lock"
+else
+  leaveLog "$safariBackupLocation/History.db-lock file already exist"
+fi
 # 3. History.db-shm
-run 'cp -fr ~/Library/Safari/History.db-shm ~/sooheesh/index/Backup/Safari/'
-run 'rm -rf ~/Library/Safari/History.db-shm'
+if [ ! -f "$safariBackupLocation/History.db-shm" ]; then
+  run "cp -fr ~/Library/Safari/History.db-shm ${safariBackupLocation}"
+  run "rm -rf ~/Library/Safari/History.db-shm"
+else
+  leaveLog "$safariBackupLocation/History.db-shm file already exist"
+fi
 # 4. History.db-wal
-run 'cp -fr ~/Library/Safari/History.db-wal ~/sooheesh/index/Backup/Safari/'
-run 'rm -rf ~/Library/Safari/History.db-wal'
+if [ ! -f "$safariBackupLocation/History.db-wal" ]; then
+  run "cp -fr ~/Library/Safari/History.db-wal ${safariBackupLocation}"
+  run "rm -rf ~/Library/Safari/History.db-wal"
+else
+  leaveLog "$safariBackupLocation/History.db-wal file already exist"
+fi
 # 5. RecentlyClosedTabs.plist
-run 'cp -fr ~/Library/Safari/RecentlyClosedTabs.plist ~/sooheesh/index/Backup/Safari/'
-run 'rm -rf ~/Library/Safari/RecentlyClosedTabs.plist'
+if [ ! -f "$safariBackupLocation/RecentlyClosedTabs.plist" ]; then
+  run "cp -fr ~/Library/Safari/RecentlyClosedTabs.plist ${safariBackupLocation}"
+  run "rm -rf ~/Library/Safari/RecentlyClosedTabs.plist"
+else
+  leaveLog "$safariBackupLocation/RecentlyClosedTabs.plist file already exist"
+fi
 # 6. LastSession.plist
-run 'cp -fr ~/Library/Safari/LastSession.plist ~/sooheesh/index/Backup/Safari/'
-run 'rm -rf ~/Library/Safari/LastSession.plist'
+if [ ! -f "$safariBackupLocation/LastSession.plist" ]; then
+  run "cp -fr ~/Library/Safari/LastSession.plist ${safariBackupLocation}"
+  run "rm -rf ~/Library/Safari/LastSession.plist"
+else
+  leaveLog "$safariBackupLocation/LastSession.plist file already exist"
+fi
 # 7. LocalStorage
-run 'cp -fr ~/Library/Safari/LocalStorage ~/sooheesh/index/Backup/Safari/'
-run 'rm -rf ~/Library/Safari/LocalStorage'
-# 8. Cookies
-run 'cp -fr ~/Library/Cookies ~/sooheesh/index/Backup/Safari/'
-run 'rm -rf ~/Library/Cookies'
+if [ ! -d "$safariBackupLocation/LocalStorage" ]; then
+  run "cp -fr ~/Library/Safari/LocalStorage ${safariBackupLocation}"
+  run "rm -rf ~/Library/Safari/LocalStorage"
+else
+  leaveLog "$safariBackupLocation/LocalStorage directory already exist"
+fi
 
-run 'echo "=================="'
+# Backup Cookies
+# 1. Cookies
+if [ ! -d "$backupLocation/Cookies" ]; then
+  run "cp -fr ~/Library/Cookies ${backupLocation}"
+  run "rm -rf ~/Library/Cookies"
+else
+  leaveLog "$backupLocation/Cookies directory already exist"
+fi
+
+leaveLog "=================="

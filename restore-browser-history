@@ -1,47 +1,139 @@
 #!/bin/bash
 
 now=$(date +"%y-%m-%d %T")
-run () {
-  eval "$1" >> ~/sooheesh/backup-privacy/Logs/restore-browser-history.log 2>&1
+
+leaveLog() {
+  echo "$1" >> "${BASH_SOURCE%/*}/Logs/restore-browser-history.log" 2>&1
 }
 
-run 'echo "${now}"'
+run () {
+  result=$(eval "$1")
+  if [ -z "$result" ]; then
+    leaveLog "SUCCEED: $1"
+  else
+    leaveLog "FAILED: $1"
+    leaveLog "$result"
+  fi
+}
+
+leaveLog "${now}"
+
+backupLocation="${BASH_SOURCE%/*}/Backup"
+chromeBackupLocation="${backupLocation}/Chrome"
+safariBackupLocation="${backupLocation}/Safari"
 
 # Restore Chrome history and cache
 # 1. History
-run 'cp -fr ~/sooheesh/index/Backup/Chrome/History ~/Library/Application\ Support/Google/Chrome/Default/'
+if [ -f "${chromeBackupLocation}/History" ]; then
+  run "cp -fr ${chromeBackupLocation}/History ~/Library/Application\ Support/Google/Chrome/Default/"
+  run "rm -rf ${chromeBackupLocation}/History"
+else
+  leaveLog "$chromeBackupLocation/History file doesn't exist"
+fi
 # 2. History-journal
-run 'cp -fr ~/sooheesh/index/Backup/Chrome/History-journal ~/Library/Application\ Support/Google/Chrome/Default/'
+if [ -f "$chromeBackupLocation/History-journal" ]; then
+  run "cp -fr ${chromeBackupLocation}/History-journal ~/Library/Application\ Support/Google/Chrome/Default/"
+  run "rm -rf ${chromeBackupLocation}/History-journal"
+else
+  leaveLog "$chromeBackupLocation/History-journal file doesn't exist"
+fi
 # 3. Current Tabs
-run 'cp -fr ~/sooheesh/index/Backup/Chrome/Current\ Tabs ~/Library/Application\ Support/Google/Chrome/Default/'
-# 4. Cache
-run 'cp -fr ~/sooheesh/index/Backup/Chrome/Cache ~/Library/Caches/Google/Chrome/Default/'
-# 5. Media Cache
-run 'cp -fr ~/Library/Caches/Google/Chrome/Default/Media\ Cache ~/sooheesh/index/Backup/Chrome/'
-# 6. Cookies
-run 'cp -fr ~/sooheesh/index/Backup/Chrome/Cookies ~/Library/Application\ Support/Google/Chrome/Default/'
-# 7. Cookies-journal
-run 'cp -fr ~/sooheesh/index/Backup/Chrome/Cookies-journal ~/Library/Application\ Support/Google/Chrome/Default/'
+if [ -f "$chromeBackupLocation/Current Tabs" ]; then
+  run "cp -fr ${chromeBackupLocation}/Current\ Tabs ~/Library/Application\ Support/Google/Chrome/Default/"
+  run "rm -rf ${chromeBackupLocation}/Current\ Tabs"
+else
+  leaveLog "$chromeBackupLocation/Current\ Tabs file doesn't exist"
+fi
+# 4. Cookies
+if [ -f "$chromeBackupLocation/Cookies" ]; then
+  run "cp -fr ${chromeBackupLocation}/Cookies ~/Library/Application\ Support/Google/Chrome/Default/"
+  run "rm -rf ${chromeBackupLocation}/Cookies"
+else
+  leaveLog "$chromeBackupLocation/Cookies file doesn't exist"
+fi
+# 5. Cookies-journal
+if [ -f "$chromeBackupLocation/Cookies-journal" ]; then
+  run "cp -fr ${chromeBackupLocation}/Cookies-journal ~/Library/Application\ Support/Google/Chrome/Default/"
+  run "rm -rf ${chromeBackupLocation}/Cookies-journal"
+else
+  leaveLog "$chromeBackupLocation/Cookies-journal file doesn't exist"
+fi
+# 6. Cache
+if [ -d "$chromeBackupLocation/Cache" ]; then
+  run "cp -fr ${chromeBackupLocation}/Cache ~/Library/Caches/Google/Chrome/Default/"
+  run "rm -rf ${chromeBackupLocation}/Cache"
+else
+  leaveLog "$chromeBackupLocation/Cache directory doesn't exist"
+fi
+# 7. Media Cache
+if [ -d "$chromeBackupLocation/Media Cache" ]; then
+  run "cp -fr ~/Library/Caches/Google/Chrome/Default/Media\ Cache ${chromeBackupLocation}/"
+  run "rm -rf ${chromeBackupLocation}/Media\ Cache"
+else
+  leaveLog "$chromeBackupLocation/Media\ Cache directory doesn't exist"
+fi
 
 # Restore Safari History (except for bookmarks).
 # 1. History.db
-run 'cp -fr ~/sooheesh/index/Backup/Safari/History.db ~/Library/Safari/'
+if [ -f "$safariBackupLocation/History.db" ]; then
+  run "cp -fr ${safariBackupLocation}/History.db ~/Library/Safari/"
+  run "rm -rf ${safariBackupLocation}/History.db"
+else
+  leaveLog "$safariBackupLocation/History.db file doesn't exist"
+fi
 # 2. History.db-lock
-run 'cp -fr ~/sooheesh/index/Backup/Safari/History.db-lock ~/Library/Safari/'
+if [ -f "$safariBackupLocation/History.db-lock" ]; then
+run "cp -fr ${safariBackupLocation}/History.db-lock ~/Library/Safari/"
+  run "rm -rf ${safariBackupLocation}/History.db-lock"
+else
+  leaveLog "$safariBackupLocation/History.db-lock file doesn't exist"
+fi
 # 3. History.db-shm
-run 'cp -fr ~/sooheesh/index/Backup/Safari/History.db-shm ~/Library/Safari/'
+if [ -f "$safariBackupLocation/History.db-shm" ]; then
+  run "cp -fr ${safariBackupLocation}/History.db-shm ~/Library/Safari/"
+  run "rm -rf ${safariBackupLocation}/History.db-shm"
+else
+  leaveLog "$safariBackupLocation/History.db-shm file doesn't exist"
+fi
 # 4. History.db-wal
-run 'cp -fr ~/sooheesh/index/Backup/Safari/History.db-wal ~/Library/Safari/'
+if [ -f "$safariBackupLocation/History.db-wal" ]; then
+  run "cp -fr ${safariBackupLocation}/History.db-wal ~/Library/Safari/"
+  run "rm -rf ${safariBackupLocation}/History.db-wal"
+else
+  leaveLog "$safariBackupLocation/History.db-wal file doesn't exist"
+fi
 # 5. RecentlyClosedTabs.plist
-run 'cp -fr ~/sooheesh/index/Backup/Safari/RecentlyClosedTabs.plist ~/Library/Safari/'
+if [ -f "$safariBackupLocation/RecentlyClosedTabs.plist" ]; then
+  run "cp -fr ${safariBackupLocation}/RecentlyClosedTabs.plist ~/Library/Safari/"
+  run "rm -rf ${safariBackupLocation}/RecentlyClosedTabs.plist"
+else
+  leaveLog "$safariBackupLocation/RecentlyClosedTabs.plist file doesn't exist"
+fi
 # 6. LastSession.plist
-run 'cp -fr ~/sooheesh/index/Backup/Safari/LastSession.plist ~/Library/Safari/'
+if [ -f "$safariBackupLocation/LastSession.plist" ]; then
+  run "cp -fr ${safariBackupLocation}/LastSession.plist ~/Library/Safari/"
+  run "rm -rf ${safariBackupLocation}/LastSession.plist"
+else
+  leaveLog "$safariBackupLocation/LastSession.plist file doesn't exist"
+fi
 # 7. LocalStorage
-run 'cp -fr ~/sooheesh/index/Backup/Safari/LocalStorage ~/Library/Safari/'
-# 8. Cookies
-run 'cp -fr ~/sooheesh/index/Backup/Safari/Cookies ~/Library/'
+if [ -d "$safariBackupLocation/LocalStorage" ]; then
+  run "cp -fr ${safariBackupLocation}/LocalStorage ~/Library/Safari/"
+  run "rm -rf ${safariBackupLocation}/LocalStorage"
+else
+  leaveLog "$safariBackupLocation/LocalStorage directory doesn't exist"
+fi
 
-run 'echo "=================="'
+# Backup Cookies
+# 1. Cookies
+if [ -d "$backupLocation/Cookies" ]; then
+  run "cp -fr ${backupLocation}/Cookies ~/Library/"
+  run "rm -rf ${backupLocation}/Cookies"
+else
+  leaveLog "$backupLocation/Cookies directory doesn't exist"
+fi
+
+leaveLog "=================="
 
 title='Restore Privacy'
 message='Restored browser history'
