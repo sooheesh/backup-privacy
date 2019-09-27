@@ -1,29 +1,11 @@
 #!/bin/bash
 
-now=$(date +"%y-%m-%d %T")
+source "${BASH_SOURCE%/*}/functions"
 
-leaveLog() {
-  echo "$1" >> "${BASH_SOURCE%/*}/Logs/clean-browser-history.log" 2>&1
-}
-
-run () {
-  result=$(eval "$1")
-  if [ -z "$result" ]; then
-    leaveLog "SUCCEED: $1"
-  else
-    leaveLog "FAILED: $1"
-    leaveLog "$result"
-  fi
-}
-
-leaveLog "${now}"
+leaveLog "CLEAR BROWSER HISTORY ${now}"
 
 # Quit app first
 osascript -e 'quit app "Google Chrome"'
-
-backupLocation="${BASH_SOURCE%/*}/Backup"
-chromeBackupLocation="${backupLocation}/Chrome"
-safariBackupLocation="${backupLocation}/Safari"
 
 # Backup Chrome history and cache
 # 1. History
@@ -33,7 +15,6 @@ if [ ! -f "$chromeBackupLocation/History" ]; then
 else
   leaveLog "$chromeBackupLocation/History file already exist"
 fi
-
 # 2. History-journal
 if [ ! -f "$chromeBackupLocation/History-journal" ]; then
   run "cp -fr ~/Library/Application\ Support/Google/Chrome/Default/History-journal ${chromeBackupLocation}"
@@ -141,3 +122,4 @@ else
 fi
 
 leaveLog "=================="
+notify "Backup Privacy"

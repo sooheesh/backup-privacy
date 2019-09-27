@@ -1,26 +1,8 @@
 #!/bin/bash
 
-now=$(date +"%y-%m-%d %T")
+source "${BASH_SOURCE%/*}/functions"
 
-leaveLog() {
-  echo "$1" >> "${BASH_SOURCE%/*}/Logs/restore-browser-history.log" 2>&1
-}
-
-run () {
-  result=$(eval "$1")
-  if [ -z "$result" ]; then
-    leaveLog "SUCCEED: $1"
-  else
-    leaveLog "FAILED: $1"
-    leaveLog "$result"
-  fi
-}
-
-leaveLog "${now}"
-
-backupLocation="${BASH_SOURCE%/*}/Backup"
-chromeBackupLocation="${backupLocation}/Chrome"
-safariBackupLocation="${backupLocation}/Safari"
+leaveLog "RESTORE BROWSER HISTORY ${now}"
 
 # Restore Chrome history and cache
 # 1. History
@@ -134,7 +116,4 @@ else
 fi
 
 leaveLog "=================="
-
-title='Restore Privacy'
-message='Restored browser history'
-osascript -e 'display notification "'"${message}"'" with title "'"${title}"'"'
+notify "Restore Privacy"

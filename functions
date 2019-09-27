@@ -1,0 +1,33 @@
+#!/bin/bash
+
+now=$(date +"%y-%m-%d %T")
+
+backupLocation="${BASH_SOURCE%/*}/Backup"
+chromeBackupLocation="${backupLocation}/Chrome"
+safariBackupLocation="${backupLocation}/Safari"
+
+logPath="${BASH_SOURCE%/*}/Logs/backup-privacy.log"
+leaveLog() {
+  echo "$1" >> "${logPath}" 2>&1
+}
+
+succeed=0
+failed=0
+run () {
+  result=$(eval "$1")
+  if [ -z "$result" ]; then
+    leaveLog "SUCCEED: $1"
+    succeed=$((succeed+1))
+  else
+    leaveLog "FAILED: $1"
+    leaveLog "$result"
+    failed=$((failed+1))
+  fi
+}
+
+notify () {
+  title="$1"
+  message="SUCCEED: $succeed, FAILED: $failed"
+  osascript -e 'display notification "'"${message}"'" with title "'"${title}"'"'
+}
+

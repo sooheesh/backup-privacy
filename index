@@ -2,7 +2,3 @@
 
 eval "${BASH_SOURCE%/*}/clean-browser-history"
 eval "${BASH_SOURCE%/*}/quit-personal-apps"
-
-title='Backup Privacy'
-message='Cleaned browser history and Quitted personal apps'
-osascript -e 'display notification "'"${message}"'" with title "'"${title}"'"'
