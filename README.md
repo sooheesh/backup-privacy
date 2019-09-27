@@ -13,7 +13,7 @@ $ chmod +x $PATH
 3. Make sure it receives 'no input' at all programs.
 4. Select Run Shell Script and type in your code.
 5. Save!
-6. Go to System Preferences > Security > Privacy > Accessibility and add Automator and the preferred app to run the shortcut.
+6. Go to System Preferences > Security > Privacy > Accessibility and add Automator and the Quick Action files to run the shortcut.
 
 ## Configure keyboard shortcuts
 
