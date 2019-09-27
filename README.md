@@ -17,4 +17,4 @@ $ chmod +x $PATH
 
 ## Configure keyboard shortcuts
 
-go to System Preferences > Keyboard > Shortcuts. Select Services from the sidebar and find your service. Add a shortcut.
+Go to System Preferences > Keyboard > Shortcuts. Select Services from the sidebar and find your service. Add a shortcut.
