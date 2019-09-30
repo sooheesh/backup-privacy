@@ -1,5 +1,5 @@
 # backup-privacy
-Clean, backup, restore browser history
+Clean, backup, restore browser history in OSX (Safari, Chrome)
 
 ## Make them executable
 ```
